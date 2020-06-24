@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { intervalToDuration, isBefore } from "date-fns";
+import React, { useState } from "react";
+import Card from "./components/Card";
 
 import "./App.css";
 
-import DisplayDate from "./displayDate";
+import DisplayDate from "./components/DisplayTime";
 
 function App() {
   const [inputDate, setInputDate] = useState("");
@@ -14,9 +14,18 @@ function App() {
 
   return (
     <div className="App">
-      <input id="inputDate" type="date" onChange={handleChangeInputDate} />
-      {inputDate}
-      <DisplayDate date={inputDate !== "" ? inputDate : undefined} />
+      <Card>
+        <div className="content-app">
+          <input
+            id="inputDate"
+            type="date"
+            placeholder="DD / MM / YYYY"
+            onChange={handleChangeInputDate}
+          />
+
+          <DisplayDate date={inputDate !== "" ? inputDate : undefined} />
+        </div>
+      </Card>
     </div>
   );
 }
