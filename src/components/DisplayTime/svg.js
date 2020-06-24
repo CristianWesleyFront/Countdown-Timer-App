@@ -39,7 +39,7 @@ export const SVGCircle = ({ radius }) => (
     <path
       fill="none"
       stroke="#fff"
-      stroke-width="3"
+      strokeWidth="3"
       strokeOpacity="0.7"
       strokeLinejoin="round"
       d={describeArc(50, 50, 48, 0, radius)}

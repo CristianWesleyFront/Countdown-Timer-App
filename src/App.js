@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "./components/Card";
+import { isValid } from "date-fns";
 
 import "./App.css";
 
@@ -23,7 +24,13 @@ function App() {
             onChange={handleChangeInputDate}
           />
 
-          <DisplayDate date={inputDate !== "" ? inputDate : undefined} />
+          <DisplayDate
+            date={
+              inputDate !== "" && isValid(new Date(inputDate))
+                ? inputDate
+                : undefined
+            }
+          />
         </div>
       </Card>
     </div>

@@ -43,7 +43,11 @@ function DisplayDate({ date = new Date() }) {
         seconds: 0,
       };
     }
-    return intervalToDuration({ start: startDate, end: endDate });
+
+    return intervalToDuration({
+      start: startDate,
+      end: endDate,
+    });
   };
 
   useInterval(() => {
