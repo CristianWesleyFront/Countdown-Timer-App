@@ -1,11 +1,11 @@
-# Bin2Dec
+# Countdown-Timer-App
 
 <h1 align="center">
- <a href="https://cdn7s.csb.app/">  <img src="https://media.giphy.com/media/IdIu67uIjNymjunzcI/giphy.gif" width="85%"> </a> 
+ <a href="https://1wf8l.csb.app/">  <img src="https://media.giphy.com/media/VglzJH8PxqMjDEhPKd/giphy.gif" width="85%"> </a> 
 </h1>
 
 <h3 align="center"> 
-  <a href="https://cdn7s.csb.app/"> 
+  <a href="https://1wf8l.csb.app/"> 
     Acessar a demonstração 
   </a> 
 </h3>
@@ -19,28 +19,15 @@
 
 ## 📓 Sobre
 
-Referência do projeto [app-ideas](https://github.com/florinpop17/app-ideas) de [florinpop17](https://github.com/florinpop17)
+Referência do projeto [app-ideas](https://github.com/florinpop17/app-ideas) e o [projeto](https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/) de [florinpop17](https://github.com/florinpop17)
 
 Nível: 1-Iniciante
 
-Binário é o sistema numérico em que todos os computadores digitais se baseiam. Portanto, é importante que os desenvolvedores entendam matemática binária ou base 2. O objetivo do **Bin2Dec** é fornecer prática e entendimento de como cálculos binários.
-
-O **Bin2Dec** permite que o usuário insira sequências de até 8 dígitos binários, 0 e 1, em qualquer sequência e, em seguida, exibe seu equivalente decimal.
-
-Esse desafio exige que o desenvolvedor que o implementa siga estas restrições:
-
-- As matrizes não podem ser usadas contêm os dígitos binários inseridos pelo usuário
-- A determinação do equivalente decimal de um dígito binário específico na sequência deve ser calculada usando uma única função matemática, por exemplo, o logaritmo natural. Cabe a você descobrir qual função usar.
+O objetivo do temporizador de contagem regressiva é fornecer uma exibição continuamente decrescente dos anos, meses, dias, horas, minutos e segundos para um evento inserido pelo usuário.
 
 ### Ações de usuários
 
-- [x] ~O usuário pode inserir até 8 dígitos binários em um campo de entrada~
-- [x] ~O usuário deve ser notificado se algo diferente de 0 ou 1 foi inserido~
-- [x] ~O usuário visualiza os resultados em um único campo de saída contendo o equivalente decimal (base 10) do número binário que foi inserido~
-
-### Recursos bônus
-
-- [x] ~O usuário pode inserir um número variável de dígitos binários~
+- [x] ~O usuário pode inserir uma data depois do dia hoje~
 
 ---
 
@@ -49,6 +36,7 @@ Esse desafio exige que o desenvolvedor que o implementa siga estas restrições:
 - [ReactJS](https://pt-br.reactjs.org/)
 - [JavaScript](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
 - [Css](https://www.w3schools.com/css/css_intro.asp)
+- [date-fns](https://date-fns.org/v2.14.0/docs/)
 
 ---
 
@@ -59,10 +47,10 @@ Esse desafio exige que o desenvolvedor que o implementa siga estas restrições:
 ```bash
 
  # Clonar o repositório
- $ git clone https://github.com/CristianWesleyFront/Bin2Dec
+ $ git clone https://github.com/CristianWesleyFront/Countdown-Timer-App
 
  # Entrar no diretorio
- $ cd Bin2Dec
+ $ cd Countdown-Timer-App
 
  # Instalar as dependências
  $ yarn install
@@ -78,10 +66,10 @@ Esse desafio exige que o desenvolvedor que o implementa siga estas restrições:
 ```bash
 
  # Clonar o repositório
- $ git clone https://github.com/CristianWesleyFront/Bin2Dec
+ $ git clone https://github.com/CristianWesleyFront/Countdown-Timer-App
 
  # Entrar no diretorio
- $ cd Bin2Dec
+ $ cd Countdown-Timer-App
 
  # Instalar as dependências
  $ npm i
@@ -95,6 +83,8 @@ Esse desafio exige que o desenvolvedor que o implementa siga estas restrições:
 ---
 
 ## 🤝 Considerações
+
+#### React Hooks + setInterval : https://overreacted.io/making-setinterval-declarative-with-react-hooks/
 
 #### Background-image : https://pressstart.vip/assets
 
