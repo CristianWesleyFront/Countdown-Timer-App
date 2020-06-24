@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background-image: url("https://pressstart.vip/images/uploads/assets/snowymountains.png");
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-attachment: fixed;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+}
